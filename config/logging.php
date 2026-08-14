@@ -135,6 +135,17 @@ return [
             'path' => storage_path('logs/laravel.log'),
         ],
 
+        'facts_check' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/facts-check.log'),
+            'level' => 'info',
+        ],
+
+        'news_fetch' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/news-fetch.log'),
+            'level' => 'info',
+        ],
     ],
 
 ];
